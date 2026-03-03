@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PricingPage = () => {
+const SupportPage = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const PricingPage = () => {
   )
 }
 
-export default PricingPage
+export default SupportPage
