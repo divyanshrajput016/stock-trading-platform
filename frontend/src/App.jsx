@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import SupportPage from '../pages/support/SupportPage';
 import ProductPage from '../pages/products/ProductPage';
 import AboutPage from '../pages/about/AboutPage';
+import NotFound from '../pages/notfound/NotFound';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/pricing' element={<PricingPage/>}></Route>
         <Route path='/products' element={<ProductPage/>}></Route>
         <Route path='/support' element={<SupportPage/>}></Route>
+        <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>
   )
